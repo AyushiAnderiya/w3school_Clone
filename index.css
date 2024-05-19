@@ -1,109 +1,137 @@
-#header h1{
-    font-family: Yatra One,Arial, Helvetica, sans-serif;
+#header h1 {
+    font-family: Yatra One, Arial, Helvetica, sans-serif;
 }
-#header h1:hover{
+
+#header h1:hover {
     color: rgb(117, 196, 39);
     cursor: pointer;
 }
-#s1{ 
+
+#s1 {
     margin: -4px;
     float: left;
 }
-.s2
-{ margin-top: 7px;
+
+.s2 {
+    margin-top: 7px;
     float: right;
 }
-.s3
-    { margin-top: 4px;
-        float: right;
-    }
-    .s3{  
-        color: aliceblue;
-         background-color: rgb(32, 177, 19);
-        border-radius: 5px;
-        font-size: 22px;
-        }
-        button:hover{ background-color: snow;
+
+.s3 {
+    margin-top: 4px;
+    float: right;
+}
+
+.s3 {
+    color: aliceblue;
+    background-color: rgb(32, 177, 19);
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+button:hover {
+    background-color: snow;
     color: rgb(53, 197, 53);
     cursor: pointer;
-   }
-   #d2{ padding-top: 3px;
+}
+
+#d2 {
+    padding-top: 3px;
     background-color: rgb(90, 84, 84);
     height: 50px;
-   }
-  #d2  #navbar li{
-       padding:  24px  ;
-      
-       display:inline;
-       color: white;
-       font-size: 18px;
-       font-weight: bold;
-       font-family: Arial, Helvetica, sans-serif;
-   }
-   #d2 #semta li:hover{
-       color: chartreuse;
-       text-decoration: underline;
-       cursor: pointer;
+}
 
-   }
-  
-    
-  
-       
-       #d4{  text-align:start;
-        background: rgba(152, 156, 158, 0.301 );
-        max-height: 1115px;
-        max-width: 220px;
-        overflow: scroll;
-        border: 1px solid rgba(152, 156, 158, 0.301);
-       float: left;
-        }
-        #d4 ul{ margin: 3px;
-            padding: 7px;
-        }
-        #d4 ul li:hover{ 
-            background-color: rgb(32, 177, 19);
-            color: whitesmoke;
-            cursor: pointer;
-        }
-        #d5{
-            margin-left: 200px;
-        }
-        #ad1,#ad2{  
-            color: aliceblue;
-             background-color: rgb(32, 177, 19);
-            
-            font-size: 20px;
-            }
-            #ad1:hover{
-        background-color: rgb(4, 82, 4);
-        cursor: pointer;
-       }
-       #ad1{
-           float: left;
-       }
-       #ad2{
-        float: right;
-    }
-    #ad2:hover{  
-        
-         background-color: rgb(9, 82, 3);
-         cursor: pointer;
-    }
-        #d7{
-            background: rgba(218, 221, 221, 0.301);
-            border: 35px solid rgba(69, 70, 70, 0.144);
-        height: 305px;
-        width: 800px;
-        }
-        #s1{
-            position: absolute;
-        }
-        #s1 li{
-            display: block;
+#navbar li {
+    padding: 1.5vw;
+    display: inline;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        }
-        .c1{
-            display: block;
-        }
-    
+#navbar li:hover {
+    color: chartreuse;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#navbar li:active{
+    color: rgb(8, 82, 11);
+}
+
+
+
+
+#d4 {
+    text-align: start;
+    background: rgba(152, 156, 158, 0.301);
+    max-height: 1115px;
+    max-width: 220px;
+    overflow: scroll;
+    border: 1px solid rgba(152, 156, 158, 0.301);
+    float: left;
+}
+
+#d4 ul {
+    margin: 3px;
+    padding: 7px;
+}
+
+#d4 ul li:hover {
+    background-color: rgb(32, 177, 19);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#d5 {
+    margin-left: 200px;
+}
+
+#ad1,
+#ad2 {
+    color: aliceblue;
+    background-color: rgb(32, 177, 19);
+
+    font-size: 20px;
+}
+
+#ad1:hover {
+    background-color: rgb(4, 82, 4);
+    cursor: pointer;
+}
+
+#ad1 {
+    float: left;
+}
+
+#ad2 {
+    float: right;
+}
+
+#ad2:hover {
+
+    background-color: rgb(9, 82, 3);
+    cursor: pointer;
+}
+
+#d7 {
+    background: rgba(218, 221, 221, 0.301);
+    border: 35px solid rgba(69, 70, 70, 0.144);
+    height: 305px;
+    width: 800px;
+}
+
+#s1 {
+    position: absolute;
+}
+
+#s1 li {
+    display: block;
+
+}
+
+.c1 {
+    display: block;
+}
